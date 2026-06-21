@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(22, 22, 22);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+}
+
+nav .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav ul li a{
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 196, 0);
+}
+
+.home{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 196, 0);
+    box-shadow: 0 0 25px rgba(255, 152, 0, 0.4);
+}
+
+h2{
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: rgb(22, 22, 22);
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 15px 0;
+    transition: 0.4s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+    transform: translateY(-9px);
+    box-shadow: 0 8px 25px rgba(255, 152, 0, 0.25);
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+}
+
+.card-body{
+    padding: 15px;
+}
+
+.card-title{
+    color: rgb(255, 196, 0);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-text{
+    color: gainsboro;
+}
