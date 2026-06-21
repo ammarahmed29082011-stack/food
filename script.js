@@ -1,10 +1,10 @@
-var data = [];
+let data = [];
 
-var links=document.querySelectorAll('.home .nav-link');
+const links=document.querySelectorAll('.home .nav-link');
 
-for(var i=0;i<links.length;i++){
+for(let i=0;i<links.length;i++){
     links[i].addEventListener('click',function(e){
-        var currentLink=e.target.innerHTML;
+        let currentLink=e.target.innerHTML;
         getApiData(currentLink)
     })
 
@@ -23,9 +23,9 @@ function getApiData(meal) {
 
 function displayData() {
 
-    var cols = ``;
+    let cols = ``;
 
-    for (var i = 0; i < data.length; i++) {
+    for (let i = 0; i < data.length; i++) {
 
         cols += `
 
